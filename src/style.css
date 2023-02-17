@@ -1,0 +1,262 @@
+/*crashit store*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+i{
+  cursor: pointer;
+}
+
+a{
+  margin: auto 50px auto 50px;
+}
+
+.logo{
+  position: right;
+  width: 100px;
+  height: 100px;
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbb42c;
+  color: white;
+  padding: 5px 50px;
+  margin-bottom: 30px;
+}
+
+.cart {
+  position: relative;
+  background-color: #fff;
+  color: #212529;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cartAmount {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.shop {
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .shop {
+    grid-template-columns: repeat(2, 223px);
+  }
+}
+
+@media (max-width: 500px) {
+  .shop {
+    grid-template-columns: repeat(1, 223px);
+  }
+}
+
+.item {
+  border: 2px solid #dbb42c;
+  border-radius: 4px;
+}
+
+.item img {
+ width: 100%;
+ border-radius: 2px 2px 0 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.bi-dash-square {
+  color: red;
+}
+
+.bi-plus-square {
+   color: green;
+}
+
+.text-center{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.HomeBtn, .Checkout, .removeAll{
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10PX;
+}
+
+.Checkout{
+  background-color: green;
+}
+
+.removeAll{
+  background-color: red;
+}
+
+.bi-x-lg{
+  color:red;
+  font-weight: bold;
+}
+
+.shopping-cart{
+  display:grid;
+  grid-template-columns: repeat(1, 400px);
+  justify-content: center;
+  gap: 15px;
+}
+
+.cart-item{
+  border: 2px solid #dbb42c;
+  border-radius: 5px;
+  display: flex;
+}
+
+.title-price-x{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-price{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item-price{
+  background-color: #212529;
+  color: white;
+  padding: 3px, 6px;
+}
+
+.h4{
+  text-align: center;
+}
+
+
+
+/* ------------------------- */
+/* Botones Flotantes */
+/* ------------------------- */
+
+
+.insta{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 50px;
+  bottom: 23%;
+  right: 1%;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: white;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+.insta:hover{
+  text-decoration: none;
+  color: #212529;
+  background: #fff;
+}
+
+.btn-wsp{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  line-height: 50px;
+  bottom: 13%;
+  right: 1%;
+  background: #0df053;
+  color: #fff;
+  border-radius: 40px; 
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  }
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+  /*fotter*/
+  
+  .copyright{
+    padding: 15px 10px;
+    text-align: left;
+    color: black;
+    font-family: sans-serif;
+  }
+  
+  .copyright small{
+  font-size: 13px;
+  }
+
+  .footer{
+    width: 100%;
+    background-color: #dbb42c;
+    margin-top: auto;
+  }
+
+
+
+  
