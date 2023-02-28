@@ -9,7 +9,7 @@
 body {
   font-family: sans-serif;
   background-color: white;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -85,8 +85,9 @@ a{
 }
 
 .item {
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 4px;
+  background-color: black;
 }
 
 .item img {
