@@ -4,21 +4,21 @@ let shopItemsData = [
       name: "Supreme Epic Blue Raspberry",
       price: 8500,
       desc: "5000 Puffs",
-      img: "images/34.jpeg"
+      img: "images/34.jpg"
     },
   
     { id: "vapo2",
       name: "Supreme Epic Watermelon Candy",
       price: 8500,
       desc: "5000 Puffs",
-      img: "images/32.jpeg"
+      img: "images/32.jpg"
     },
   
      { id: "vapo3",
       name: "Supreme Epic+ Banana Ice",
       price: 9500,
       desc: "7000 Puffs Recargable",
-      img: "images/40.jpeg"
+      img: "images/40.jpg"
     },
   
     { id: "vapo4",
@@ -60,14 +60,14 @@ let shopItemsData = [
       name: "Supreme Epic+ Lush Ice",
       price: 9500,
       desc: "7000 Puffs Recargable",
-      img: "images/62.jpeg"
+      img: "images/6.jpg"
     },
 
     { id: "vapo10",
     name: "Supreme Epic+ Grape Ice",
     price: 9500,
     desc: "7000 Puffs Recargable",
-    img: "images/63.jpeg"
+    img: "images/7.jpg"
    },
 
   { id: "vapo11",
