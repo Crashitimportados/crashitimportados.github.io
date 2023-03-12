@@ -46,8 +46,7 @@ let shopItemsData = [
   name: "Fume Unlimited Cotton Candy",
   price: 9500,
   desc: "7000 Puffs Recargable",
-  img: "images/fume/72.jpg"
+  img: "images/fume/72b.jpg"
   },
 
-  
- ];
+  ];
