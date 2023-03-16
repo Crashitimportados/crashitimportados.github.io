@@ -1,5 +1,26 @@
 let shopItemsData = [
   
+  { id: "vapo16",
+  name: "Fume Ultra Purple Rain",
+  price: 7000,
+  desc: "2500 Puffs",
+  img: "images/fume/73b.jpg"
+  },
+  
+  { id: "vapo17",
+  name: "Fume Ultra Strawberry Watermelon",
+  price: 7000,
+  desc: "2500 Puffs",
+  img: "images/fume/74b.jpg"
+  },
+  
+  { id: "vapo18",
+  name: "Fume Ultra Blue Razz",
+  price: 7000,
+  desc: "2500 Puffs",
+  img: "images/fume/75b.jpg"
+  },
+  
   { id: "vapo19",
   name: "Fume Unlimited Strawberry Watermelon",
   price: 9500,

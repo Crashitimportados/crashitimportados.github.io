@@ -19,9 +19,6 @@ i{
   cursor: pointer;
 }
 
-a{
-  margin: auto 50px auto 50px;
-}
 
 .logo{
   position: right;
@@ -45,6 +42,7 @@ a{
 
 .nav-link {
   color: #dbb42c;
+  margin: 50px 50px 50px 50px;
 }
 
 .cart {
@@ -204,7 +202,7 @@ a{
   height: 3rem;
   line-height: 50px;
   bottom: 15%;
-  right: -1%;
+  right: 3%;
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   color: white;
   border-radius: 40px; 
@@ -226,7 +224,7 @@ a{
   height: 3rem;
   line-height: 50px;
   bottom: 5%;
-  right: -1%;
+  right: 3%;
   background: #0df053;
   color: #fff;
   border-radius: 40px; 
