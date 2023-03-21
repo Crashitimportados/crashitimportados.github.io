@@ -188,6 +188,4 @@ let shopItemsData = [
     desc: "6000 Puffs",
     img: "images/supreme/77.jpg"
   },
-
-  
- ];
+];

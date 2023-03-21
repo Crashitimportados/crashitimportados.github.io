@@ -69,5 +69,4 @@ let shopItemsData = [
   desc: "7000 Puffs Recargable",
   img: "images/fume/72b.jpg"
   },
-
-  ];
+];
