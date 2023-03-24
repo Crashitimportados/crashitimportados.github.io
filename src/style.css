@@ -5,6 +5,17 @@
     font-family: 'Open Sans';
 }
 
+header{
+    height: 35vh;
+    overflow: hidden;
+    position: relative;
+
+}
+header video{
+    width: 100%;
+    background-position: center center;
+}
+
 .logo{
     position: right;
     width: 100px;
