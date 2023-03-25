@@ -49,6 +49,16 @@ header video{
     contain: paint;
 }
 /* SECCION CONTENEDOR DE ITEMS */
+h3 {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
 .contenedor .contenedor-items{
     margin-top: 30px;
     display: grid;
