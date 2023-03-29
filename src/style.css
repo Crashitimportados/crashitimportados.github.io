@@ -271,6 +271,12 @@ h3 {
     .carrito{
         width: 100%;
     }
+    .menu-horizontal > li > a{
+        width: 100%;
+    }
+    .menu-vertical {
+        width: 100%;
+    }
   }
 
 
