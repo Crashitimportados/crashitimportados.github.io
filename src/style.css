@@ -18,7 +18,14 @@ body {
     left: 0;
     z-index: 1000;
   }
+
+  .logo {
+    display: flex;
+  }
   
+  .logo img {
+    height: 100px;
+  }
   .nav {
     display: flex;
     justify-content: space-between;
