@@ -136,6 +136,11 @@ body {
 
   /*ESTILOS DE SECCION BODY*/
 
+  .imagen{
+    text-align: center;
+    margin-top: 50px;
+  }
+
    h1{
     text-align: center;
     margin-top: 50px;
@@ -341,8 +346,11 @@ h3 {
     .carrito{
         width: 100%;
     }
-  }
 
+    img {
+      width: 100%;
+  }
+}
 
   /* ------------------------- */
 /* Botones Flotantes */
@@ -414,3 +422,5 @@ h3 {
     margin-top: auto;
   }
 
+  
+  
