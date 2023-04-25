@@ -136,7 +136,6 @@ body {
     .nav-toggle:focus:not(:focus-visible) {
       outline: none;
     }
-
   }
 
 
