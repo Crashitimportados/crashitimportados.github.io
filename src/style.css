@@ -136,6 +136,11 @@ body {
 
   /*ESTILOS DE SECCION BODY*/
 
+   h1{
+    text-align: center;
+    margin-top: 50px;
+   }
+
   .contenedor{
     max-width: 1200px;
     padding: 10px;
