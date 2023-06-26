@@ -11,3 +11,15 @@ navToggle.addEventListener("click", () => {
     navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });
+
+/*FUNCIONES DEL SLIDER*/
+
+var slides = document.querySelectorAll('.slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide, 5000); // Cambiar de slide cada 5 segundos
+
+function nextSlide() {
+  slides[currentSlide].className = 'slide';
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].className = 'slide active';
+}
